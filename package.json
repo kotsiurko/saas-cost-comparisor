@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "saas-price-comparator",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://kotsiurko.github.io/saas-price-comparator",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
@@ -18,6 +18,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "chart.js": "^4.2.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {

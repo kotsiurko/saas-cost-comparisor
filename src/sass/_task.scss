@@ -1,0 +1,143 @@
+.container {
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 20px;
+  outline: 2px solid black;
+
+  @media only screen and (min-width: $desktop) {
+    width: 920px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.canva-box {
+  min-height: 280px;
+  min-width: 560px;
+  max-height: 280px;
+  max-width: 560px;
+}
+
+.labelsContainer {
+  display: flex;
+  flex-direction: row;
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+  }
+}
+
+.labelItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+
+  @media only screen and (min-width: $desktop) {
+    width: 100%;
+    height: 63px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.labelItem.backblaze {
+  margin: 0 0 0 22px;
+
+  @media only screen and (min-width: $desktop) {
+    margin: 0;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  min-height: 70%;
+
+  @media only screen and (min-width: $desktop) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 40%;
+  }
+}
+
+.providerLogo {
+  max-width: 16px;
+  height: 16px;
+}
+
+.radioGroup {
+  font-size: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 2px;
+}
+
+.radioBtnContainer {
+  width: 420px;
+  display: flex;
+}
+
+.center {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+  }
+}
+
+.sliderWrapper {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.backblaze .providerLogo {
+  margin-right: 3px;
+}

@@ -1,0 +1,82 @@
+<article class="container" id="uk">
+  <div class="center">
+    <h1>ByteCloud Technologies test task</h1>
+    <p>Saas services cost calculator</p>
+
+    <div class="content">
+
+      <!-- DIAGRAM CONTAINER -->
+      <div class="chartContainer">
+        <canvas id="myChart" class="canva-box"></canvas>
+        <div class="labelsContainer">
+          <div class="labelItem backblaze">
+            <img class="providerLogo" src="./images/backblaze.png" alt="Backblaze">
+            <div class="textWrapper">
+              <p>backblaze</p>
+            </div>
+          </div>
+
+          <div class="labelItem bunny">
+            <img class="providerLogo" src="./images/bunny.png" alt="bunny">
+            <div class="textWrapper">
+              <p>bunny</p>
+              <div class="radioGroup jsBunny">
+                <div class="inputWrapper">
+                  <input type="radio" id="bunny_hdd" name="bunny" value="hdd" checked>
+                  <label for="bunny_hdd">hdd</label>
+                </div>
+                <div class="inputWrapper">
+                  <input type="radio" id="bunny_ssd" name="bunny" value="ssd">
+                  <label for="bunny_ssd">ssd</label>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="labelItem scaleway">
+            <img class="providerLogo" src="./images/scaleway.png" alt="scaleway">
+            <div class="textWrapper">
+              <p>scaleway</p>
+              <div class="radioGroup jsScaleway">
+                <div class="inputWrapper">
+                  <input type="radio" id="scaleway_multi" name="scaleway" value="Multi" checked>
+                  <label for="scaleway_multi">Multi</label>
+                </div>
+
+                <div class="inputWrapper">
+                  <input type="radio" id="scaleway_single" name="scaleway" value="Single">
+                  <label for="scaleway_single">Single</label>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="labelItem vultr">
+            <img class="providerLogo" src="./images/vultr.png" alt="vultr">
+            <div class="textWrapper">
+              <p>vultr</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RANGE SLIDERS -->
+      <div class="slide_container">
+        <div class="sliderWrapper">
+          <label class="storageRangeLabel" for="storageRange">Storage:</label>
+          <!-- step="50" -->
+          <input type="range" min="0" max="1000" value="100" class="slider1" id="storageRange">
+        </div>
+        <div class="sliderWrapper">
+          <label class="transferRangeLabel" for="transferRange">Transfer:</label>
+          <input type="range" min="0" max="1000" value="200" class="slider2" id="transferRange">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</article>
