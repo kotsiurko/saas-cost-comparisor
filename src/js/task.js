@@ -231,7 +231,7 @@ function backBlazeCalculator() {
   const storagePrice = 0.005;
   const transferPrice = 0.01;
   let finalPayment;
-  calcPayment = storageValue * storagePrice + transferValue * transferPrice;
+  let calcPayment = storageValue * storagePrice + transferValue * transferPrice;
   if (calcPayment < minPayment) {
     finalPayment = minPayment;
   } else {
@@ -253,7 +253,7 @@ function bunnyCalculator() {
     storagePrice = 0.02;
   }
   let finalPayment;
-  calcPayment = storageValue * storagePrice + transferValue * transferPrice;
+  let calcPayment = storageValue * storagePrice + transferValue * transferPrice;
   if (calcPayment > maxPayment) {
     finalPayment = maxPayment;
     return finalPayment;
@@ -308,7 +308,7 @@ function vultrCalculator() {
   const storagePrice = 0.01;
   const transferPrice = 0.01;
   let finalPayment;
-  calcPayment = storageValue * storagePrice + transferValue * transferPrice;
+  let calcPayment = storageValue * storagePrice + transferValue * transferPrice;
   if (calcPayment < minPayment) {
     finalPayment = minPayment;
   } else {
