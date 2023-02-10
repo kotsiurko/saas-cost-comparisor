@@ -197,7 +197,7 @@ function renderCanva() {
   const secondVal = Math.ceil(bunnyCalculator().toFixed(3) * 100) / 100;
   const thirdVal = Math.ceil(scalewayCalculator().toFixed(3) * 100) / 100;
   const fourthVal = Math.ceil(vultrCalculator().toFixed(3) * 100) / 100;
-  dataArr = [firstVal, secondVal, thirdVal, fourthVal];
+  let dataArr = [firstVal, secondVal, thirdVal, fourthVal];
 
   if (myChart) {
     removeData(myChart);
