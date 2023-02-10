@@ -1,11 +1,11 @@
 {
-  "name": "saas-price-comparator",
+  "name": "saas-cost-comparisor",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://kotsiurko.github.io/saas-price-comparator",
+  "homepage": "https://kotsiurko.github.io/saas-cost-comparisor",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /saas-price-comparator/"
+    "build": "parcel build src/*.html --public-url /saas-cost-comparisor/"
   },
   "repository": {
     "type": "git",
